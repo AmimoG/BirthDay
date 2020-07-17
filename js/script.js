@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("#myBirthDate").mask("99/99/9999");
+    $("#myBirthDate").mask("08/08/2020");
 });
 
 
