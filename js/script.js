@@ -31,7 +31,7 @@ function getAkanName(){
                 break;
             }    
             else {
-                document.getElementById('message').innerHTML = "<div class=\"alert alert-danger\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">x</button><strong>Oh snap!</strong> You Should Select a Gender Too Determine Your Akan Name!</div>";
+                document.getElementById('message').innerHTML = "<div class=\"alert alert-danger\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">x</button><strong>Sorry!</strong> Your submission is invalid, Please select gender and submit again!</div>";
                 $('#message').addClass("animated shake");
             }
         }
