@@ -2,9 +2,9 @@
     box-sizing: border-box;
 }
 
-/* body{
-    background-image: url(/images/MainAfrica1.jpg);
-} */
+body{
+    background-image: url(/images/MainAfrica.jpg);
+}
 
 .Akan-name{
     background-image: url(/images/MainAfrica1.jpg);
@@ -17,8 +17,12 @@
     position: relative;
 }
 
+.content{
+    color: aliceblue;
+}
+
 /* Navbar */
-ul {
+/* ul {
     list-style-type: none;
 }
 a {
@@ -116,6 +120,6 @@ nav {
     .social-icons a:hover {
       color: var(--clr-primary-7);
     }
-}
+} */
 /* /Navbar */
   
