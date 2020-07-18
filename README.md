@@ -4,6 +4,8 @@
 * [Setup](#setup)
 * [license](#license)
 
+![GitHub Logo](/images/ReadMe.png)
+
 ## General info
  This is an application that takes a user's birthday and use that information or data to give give the user a name that matches the day of the week they were born depending on their gender. The names are given in line with the Akan customs in naming. Akan is a community in Ghana that gives children born in the community a first name which coinside with the day name the child or children were born.
 	
