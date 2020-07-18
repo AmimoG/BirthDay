@@ -2,9 +2,13 @@
     box-sizing: border-box;
 }
 
-body{
-    background-image: url(/images/MainAfrica.jpg);
-}
+/* body{
+    background-image: url(/images/Main.gif);
+} */
+
+/* .jumbotron{
+  background-image: url(/images/MainAfrica1.jpg);
+} */
 
 .Akan-name{
     /* background-image: url(/images/MainAfrica1.jpg); */
