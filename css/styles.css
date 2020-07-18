@@ -2,13 +2,17 @@
     box-sizing: border-box;
 }
 
-/* body{
-    background-image: url(/images/Main.gif);
-} */
+body{
+    background-image: url(/images/MainAfrica1.jpg);
+}
 
-/* .jumbotron{
-  background-image: url(/images/MainAfrica1.jpg);
-} */
+.jumbotron{
+  background: darkcyan;
+}
+
+.card{
+  background-color: darkcyan;
+}
 
 .Akan-name{
     /* background-image: url(/images/MainAfrica1.jpg); */
@@ -23,6 +27,10 @@
 
 .content{
     color: black;
+}
+
+.content p{
+  color: whitesmoke;
 }
 
 /* Navbar */
