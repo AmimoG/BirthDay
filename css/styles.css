@@ -2,12 +2,16 @@
     box-sizing: border-box;
 }
 
-body{
-    background-image: url(/images/MainAfrica.jpg);
-}
+/* body{
+    background-image: url(/images/Main.gif);
+} */
+
+/* .jumbotron{
+  background-image: url(/images/MainAfrica1.jpg);
+} */
 
 .Akan-name{
-    background-image: url(/images/MainAfrica1.jpg);
+    /* background-image: url(/images/MainAfrica1.jpg); */
     min-height: 150%;
     width: 300%;
     /* height: auto; */
@@ -18,7 +22,7 @@ body{
 }
 
 .content{
-    color: aliceblue;
+    color: black;
 }
 
 /* Navbar */

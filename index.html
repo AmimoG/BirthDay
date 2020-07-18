@@ -24,17 +24,7 @@
                 <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
               </div>
             </div>
-        </nav> -->
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-              <h1 class="display-4">My Akan Name</h1>
-              <p class="lead">
-                This is an application that takes a user's birthday and use that information or data to give give the user a name that matches the day of the week they were born depending on their gender. 
-                The names are given in line with the Akan customs in naming. 
-                Akan is a community in Ghana that gives children born in the community a first name which coinside with the day name the child or children were born.
-              </p>
-            </div>
-          </div>
+        </nav> -->         
     </head>
     <!-- /Header -->
     <!-- Main -->
@@ -51,41 +41,60 @@
       </div> -->
     <!-- /Section -->
     <div class="container">
-        <div class="row">
-            <div class="content">
-                <p>
-                    This is an application that takes a user's birthday and use that information or data to give give the user a name that matches the day of the week they were born depending on their gender. 
-                    The names are given in line with the Akan customs in naming. 
-                    Akan is a community in Ghana that gives children born in the community a first name which coinside with the day name the child or children were born.
-                </p>                
+          <div class="jumbotron">            
+            <h1 class="display-4">My Akan Name</h1>
+            <p class="lead">
+              Is an application that takes a user's birthday and use that information or data to give give the user a name that matches the day of the week they were born depending on their gender. 
+              The names are given in line with the Akan customs in naming. 
+              Akan is a community in Ghana that gives children born in the community a first name which coinside with the day name the child or children were born.
+            </p>            
+          </div>
+          <div class="row">
+                <div class="content">
+                  <img src="/images/FemaleAkan.jpg" alt="AkanNames">
+                  <p>
+                    The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. 
+                    These "day names" have further meanings concerning the soul and character of the person. 
+                    Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.
+                  </p>             
                 <div class="col-md-4 mt30 akan-form">
-                    <h5>Please Enter Your Birthdate Here:</h5>
+                    <!-- <h5>Please Enter Your Birthdate Here:</h5> -->
                 <div class="Akan-name">
-                <form>
-                    <div class="container">
-                          <label class="label">Birthday</label>
-                           <div class="input-group mb15">
-                            <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
-                            <input type="text" placeholder="mm/dd/yyyy" id="myBirthDate" class="form-control" autocomplete="off">
-                         </div>
-                    </div>   
 
-                    <div class="form-group mb15">
-                          <label class="label">Gender</label>
-                           <div class="rdio rdio-default fs11">
-                            <input type="radio" name="gender" id="male" value="Male">
-                            <label for="male">&nbsp;&nbsp;Male</label>
-                        </div>
-                        <div class="rdio rdio-default fs11">
-                            <input type="radio" name="gender" value="Female" id="female">
-                            <label for="female">&nbsp;&nbsp;Female</label>
-                         </div>
+                  <div class="card">
+                    <div class="card-header">
+                      Please Enter Your Birthdate Here:
                     </div>
-                    <button type="submit" onclick="getAkanName(); return false;" class="btn btn-primary btn-xs"><i class="fa fa-search" aria-hidden="true"></i>&nbsp;&nbsp;Get Akan Name</button>
-                    <button type="reset" onclick="clearAkanMessage(); return false;" class="btn btn-default btn-xs"><i class="fa fa-times" aria-hidden="true"></i>&nbsp;&nbsp;Cancel</button>		
-                </form>	
-            </div>
-            <hr>
+                    <div class="card-body">
+                      <blockquote class="blockquote mb-0">
+                        <form>
+                          <div class="container">
+                                <label class="label">Birthday</label>
+                                 <div class="input-group">
+                                  <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                                  <input type="text" placeholder="mm/dd/yyyy" id="myBirthDate" class="form-control" autocomplete="off">
+                               </div>
+                          </div>   
+      
+                          <div class="form-group">
+                                <label class="label">Gender</label>
+                                 <div class="radio radio-default">
+                                  <input type="radio" name="gender" id="male" value="Male">
+                                  <label for="male">&nbsp;&nbsp;Male</label>
+                              </div>
+                              <div class="radio radio-default">
+                                  <input type="radio" name="gender" value="Female" id="female">
+                                  <label for="female">&nbsp;&nbsp;Female</label>
+                               </div>
+                          </div>
+                          <button type="submit" onclick="getAkanName(); return false;" class="btn btn-primary btn-xs"><i class="fa fa-search" aria-hidden="true"></i>&nbsp;&nbsp;Get Akan Name</button>
+                          <button type="reset" onclick="clearAkanMessage(); return false;" class="btn btn-default btn-xs"><i class="fa fa-times" aria-hidden="true"></i>&nbsp;&nbsp;Cancel</button>		
+                      </form>	
+                      </blockquote>
+                    </div>
+                  </div>
+              </div>
+
             <div class="your-akan-name">
                 <p id="message" class="output"></p>
             </div>
