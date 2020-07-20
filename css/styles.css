@@ -5,6 +5,8 @@
 body{
     background-image: url(/images/MainAfrica1.jpg);
     background-image: url(https://www.africaupdates.com/Images/News/020150720111442AM.jpg);
+    /* width: 100%;
+    height: auto; */
 }
 
 .jumbotron{
