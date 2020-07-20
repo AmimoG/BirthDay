@@ -5,7 +5,7 @@
 * [license](#license)
 
 ![GitHub Logo](/images/ReadMe.png)
-Format: ![Alt Text](url)
+
 
 ## General info
  This is an application that takes a user's birthday and use that information or data to give give the user a name that matches the day of the week they were born depending on their gender. The names are given in line with the Akan customs in naming. Akan is a community in Ghana that gives children born in the community a first name which coinside with the day name the child or children were born.
@@ -19,6 +19,8 @@ Project is created with:
 	
 ## Setup
 To run this project, use the live link in the GitHub repo:
+The live link to the project is provided below.
+[https://amimog.github.io/BirthDay/]
 
 ```
 $ https://amimog.github.io/BirthDay/
@@ -33,7 +35,9 @@ Please make sure to update tests as appropriate.
 ## Author and acknowledgment
 
 I would like to acknowledge the help and guidance of my Technical Mentor (TM) [Abdulfatah] in the creation of this project.
-Author [Amimo]
+
+### Author 
+ Amimo Matete is the author of this project. Contact information of the author [gilbertmatete6@gmail.com]
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
