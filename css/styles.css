@@ -19,6 +19,9 @@ body{
 
 .card{
   background-color: darkcyan;
+  margin: auto;
+  float: none;
+  margin-bottom: 10px;
 }
 
 .Akan-name{
