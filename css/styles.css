@@ -13,6 +13,10 @@ body{
   background: darkcyan;
 }
 
+#message{
+  color: crimson;
+}
+
 .card{
   background-color: darkcyan;
 }
