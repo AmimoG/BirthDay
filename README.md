@@ -34,7 +34,7 @@ Please make sure to update tests as appropriate.
 
 I would like to acknowledge the help and guidance of my Technical Mentor (TM) [Abdulfatah] in the creation of this project.
 
-# Author 
+### Author 
  Amimo Matete is the author of this project. Contact information of the author [gilbertmatete6@gmail.com]
 
 ## License
